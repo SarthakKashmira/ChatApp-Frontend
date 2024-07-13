@@ -14,9 +14,7 @@ body{margin: 0%;
         width:10vmax;
     }
     .JoinContainer > h1{
-        
         font-size: 2vmax;
-        width:55vw !important;
         padding:1vmax;
     }
     #JoinInput{

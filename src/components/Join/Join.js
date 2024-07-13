@@ -23,7 +23,6 @@ function Join() {
         <input onChange={(e)=>setname(e.target.value)} type='text' value={name} placeholder='Enter Your Name' id='JoinInput'/>
         <Link  to='/chat'><button onClick={senduser} id='JoinBtn'>Login</button></Link>
       </div>
-      
     </div>
   );
 }

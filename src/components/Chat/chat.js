@@ -81,7 +81,6 @@ function Chat() {
             <input type='text' id='chatInput' onKeyPress={(event)=>event.key==='Enter'? Send():null} value={message} onChange={(e)=>setmessage(e.target.value)}/>
             <button className='sendBtn' onClick={Send}><img src={pic} alt='Send'/></button>
           </div>
-        
        </div>
     </div>
   )                                                  

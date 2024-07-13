@@ -1,6 +1,6 @@
 .JoinPage{
     background-color: rgb(0, 255, 119) !important;
-    width:100vw;
+    width:100%;
     height:100vh;
     display: flex;
     justify-content: center;
@@ -11,6 +11,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content:center;
     align-items: center;
     background-color: rgb(0, 255, 119);
 }
